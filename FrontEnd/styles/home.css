@@ -1,0 +1,130 @@
+.Header{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-style: arial;
+    color: blue;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+.intro{
+    font-size: 20px;
+}
+.introduction{
+    color: lightblue;
+    margin-top: 20px;
+}
+.history{
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    color: blue;
+}
+ul{
+    font-size: 20px;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 150px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+.nav-links li{
+  margin: 0 20px;
+}
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav-list a:hover {
+  color: blue;
+}
+.nav-links a:hover{
+  color: blue;
+}
+
+form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      justify-content: center;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 15px;
+      background: blue;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: darkblue;
+    }
+    #results {
+      max-width: 500px;
+      width: 100%;
+    }
+    .book {
+      background: white;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .no-results {
+      color: red;
+      font-style: italic;
+      text-align: center;
+    }
